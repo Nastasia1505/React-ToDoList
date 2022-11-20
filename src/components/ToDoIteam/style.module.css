@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2px 10px 2px 5px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     box-shadow: 0 0 5px rgba(67, 67, 67, 0.714);
     border-radius: 5px;
     margin-bottom: 10px;
@@ -11,12 +11,23 @@
 
 .task {
     font-family: 'Playfair Display', serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    color: rgb(96, 167, 46);
+}
+
+.taskDone {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: rgb(92, 93, 92);
+    text-decoration: line-through;
+}
+
+.check-done{
     color: rgb(96, 167, 46);
 }
 
 .tasksList {
-    width: 100%;
+    /* width: 100%; */
     /* gap: 10px; */
     background-color: white;
 }
@@ -34,3 +45,4 @@ color: rgb(96, 167, 46);
 .trash:hover{
     color: rgb(96, 167, 46);
     }
+

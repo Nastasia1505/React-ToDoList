@@ -1,3 +1,10 @@
+* { margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
 html {
   font-size: 18px;
   font-family: 'Playfair Display', serif;
@@ -9,11 +16,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+ padding-top: 70px;
 }
 
 h1{
-  font-size: 2.5rem;
+  
+  font-size: 2.8rem;
   letter-spacing: 0.36px;
   color: rgb(76, 165, 12);
+  margin-bottom: 20px;
 }
 

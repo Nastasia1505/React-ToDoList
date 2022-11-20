@@ -5,8 +5,6 @@
     margin-bottom: 10px; 
 }
 
-
-
 .btn{
     background-color: rgb(76, 165, 12);
     padding: 5px;
@@ -16,7 +14,7 @@
     /* font-family: 'Playfair Display', serif; */
     cursor: pointer;
     /* opacity: .6; */
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .input{
@@ -24,4 +22,6 @@
     font-family: 'Playfair Display', serif;
     border: 1px solid rgb(149, 149, 149);
     border-radius: 5px;  
+    font-size: 0.9rem;
+    padding: 5px 0px 5px 5px;
 }

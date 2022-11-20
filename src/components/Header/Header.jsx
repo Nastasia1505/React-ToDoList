@@ -12,10 +12,10 @@ function Header({ setToDoList }) {
   console.log(inputValue)
 
   const onClick = () => {
-    console.log('Work')
     setToDoList((pre) => [...pre, inputValue])
     setInputValue('')
   }
+
 
   return (
     <div className={styles.wrapper}>
