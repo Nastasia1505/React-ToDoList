@@ -1,0 +1,27 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 265px 75px;
+    gap: 10px;
+    margin-bottom: 10px; 
+}
+
+
+
+.btn{
+    background-color: rgb(76, 165, 12);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    /* font-family: 'Playfair Display', serif; */
+    cursor: pointer;
+    /* opacity: .6; */
+    pointer-events: none;
+}
+
+.input{
+    outline: none;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 5px;  
+}
